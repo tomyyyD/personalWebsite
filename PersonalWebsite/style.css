@@ -1,0 +1,204 @@
+#body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(50, 50, 55);
+}
+
+.tile {
+    background-color: rgb(60, 60, 65);
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-bottom: 50px;
+    transition-duration: 0.3s;
+}
+
+.animated:hover {
+    background-color: rgb(0, 207, 182);
+}
+
+.footer {
+    background-color: rgb(30, 30, 35);
+    height: 150px;
+}
+
+
+/*Things to do with the header*/
+
+.headerContainer {
+    background-color: rgb(30, 30, 35);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: fixed;
+    width: 100%;
+    text-align: left;
+    top: 0;
+}
+
+.headerButton {
+    background-color: rgb(60, 60, 65);
+    color: white;
+    border: 0;
+    width: 200px;
+    height: 50px;
+    transition-duration: 0.3s;
+}
+
+.headerButton:hover {
+    background-color: rgb(0, 207, 182);
+    color: black;
+}
+
+.headerImage {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+#headerLine {
+    height: 15px;
+    width: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+
+/*Things to do with the title*/
+
+.title {
+    text-align: center;
+    padding-top: 250px;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    min-height: 55vh;
+    padding-bottom: 50px;
+}
+
+.titleText {
+    text-align: left;
+    color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+
+.big {
+    font-size: 60px;
+}
+
+.small {
+    font-size: 40px;
+}
+
+
+/*Things to do with the generic tiles*/
+
+.tileTitle {
+    color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: 40px;
+}
+
+.tileText {
+    padding-top: 30px;
+    color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.static {
+    width: 500px;
+}
+
+
+/*things to do with running page tiles*/
+
+.times {
+    width: auto;
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    border: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/*Things to do with home page tiles*/
+
+.bioImage {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.mainButton {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(90, 90, 95);
+    border: 0;
+    transition-duration: 0.3s;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.mainButton:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+/*Things to do with grid layout*/
+
+#gridDiv {
+    text-align: center;
+    display: grid;
+    grid-template-areas: 'tile1 tile2';
+}
+
+.gridContainer {
+    display: grid;
+    min-height: 35vh;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.gridImage {
+    width: 20vw;
+    height: 20vw;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+.first {
+    grid-area: tile1;
+}
+
+.second {
+    grid-area: tile2;
+}
+
+
+/*Code Page things*/
+
+.projectText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: left;
+}
+
+.projectImage {
+    width: 33%;
+    height: 33%;
+}
